@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Neon Rock-Paper-Scissors</title>
+  <link rel="stylesheet" href="rpc.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="neon-title">Rock Paper Scissors</h1>
+
+    <div class="score-board">
+      <div>User: <span id="userScore">0</span></div>
+      <div>Computer: <span id="compScore">0</span></div>
+    </div>
+
+    <div class="choices">
+      <button class="btn" onclick="play('rock')">🪨</button>
+      <button class="btn" onclick="play('paper')">📄</button>
+      <button class="btn" onclick="play('scissors')">✂️</button>
+    </div>
+
+    <div id="result" class="result">Make your move!</div>
+  </div>
+
+  <script src="rpc.js"></script>
+</body>
+</html>
